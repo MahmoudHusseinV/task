@@ -1,0 +1,23 @@
+name: PR Opened Workflow
+
+on:
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  pr_opened_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Add your build and test steps here
+      - name: Build and Test
+        run: |
+          npx cypress run
+          npm install
+          npm test
+
+

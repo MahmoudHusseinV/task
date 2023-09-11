@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "lib": ["dom", "es2015"],
+    "types": ["cypress", "@percy/cypress", "node", "cypress-commands"],
+    "typeRoots": ["node_modules/@types"],
+    "target": "es5"
+  },
+}
