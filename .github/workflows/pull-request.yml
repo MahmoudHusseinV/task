@@ -16,8 +16,7 @@ jobs:
       # Add your build and test steps here
       - name: Build and Test
         run: |
-          npx cypress run
           npm install
-          npm test
+          npx cypress run
 
 
