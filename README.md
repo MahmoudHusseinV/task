@@ -179,4 +179,7 @@ Scenario 4:
 1. Enhance the steps included in each scenario 
 2. Decouple the code and make it more standalone functions to be reusable
 3. Enhance the naming conventions.
-4. 
+4. Add the remaining asserstions for scenario 2 
+
+## All the test are run : 
+<img width="1678" alt="Screenshot 2023-09-11 at 11 20 31 PM" src="https://github.com/MahmoudHusseinV/task/assets/62815273/c29a4bfd-b611-4cd2-814c-0baafeef7481">
