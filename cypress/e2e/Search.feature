@@ -10,7 +10,6 @@ Feature: As a user i should be able to search on any property and see the result
     Given I Select Villas with the search criteria
     Then I should be able to see total number of results from the API response matches the total displayed property results.
 
-
   Scenario: Verify property Details
      Given I Select the search criteria for commercial properties and assert on the data
 
