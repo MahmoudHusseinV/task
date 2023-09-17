@@ -75,19 +75,10 @@ Reviewers will provide feedback, and once your changes are approved, they can be
 - `yarn install`
 - Run: `npx cypress run`
 
-#### To record test run and view in Cypress dashboard
-
-- `npx cypress run --record --key a5b91ee9-da30-4053-8bc3-fae4726d6b30`
-
 
 #### To execute using specific browser
 
 - `npx cypress run --browser chrome`
-
-#### To execute in responsive view
-
-- `npx cypress open --env isResponsive=true,device='iphone-xr' --config-file cypress-mobile.json`
-
 
 #### Configure Test Retries
 
@@ -95,15 +86,6 @@ The number of test retries, always can change from Cypress.json
 
 - Set number of test retries for cypress run to be 1 attempts
 - Set number of test retries for cypress open to be 1 attempt
-
-#### To execute smoke tests
-
-- `npx cypress run tags='@smoke'`
-
-#### To execute any cucumber feature tags
-
-- `npx cypress run tags='@feature-tag-name'`
-- `npx cypress run tags='@feature-tag-name1 @feature-tag-name2'`
 
 #### To generate HTML Test Report
 
